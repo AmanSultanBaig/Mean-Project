@@ -1,3 +1,6 @@
+// require db connection module 
+require('./config/db.config')
+//  require neccessary modules
 const express = require('express')
 const app = express()
 
